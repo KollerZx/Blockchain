@@ -4,7 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "test": "jest --watchAll"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
